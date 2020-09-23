@@ -1,0 +1,8 @@
+def name_initials():
+    s = input("Please enter your full name here: ")
+    split = s.split(' ')
+    for char in split:
+        print("{}.".format(char[0].capitalize()),end='')
+
+
+name_initials()
